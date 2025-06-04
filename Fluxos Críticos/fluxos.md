@@ -3,6 +3,7 @@
 
 **Ambiente analisado:**  
 [https://app-hom.cocobambu.com/delivery]
+
 **Autor:** Davi Romão  
 **Objetivo:** Identificar os fluxos mais críticos da plataforma que, em caso de falha, impedem o cliente de realizar uma compra.
 
