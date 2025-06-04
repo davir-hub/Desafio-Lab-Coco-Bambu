@@ -3,6 +3,7 @@
 
 **Ambiente analisado:**  
 [https://app-hom.cocobambu.com/delivery]
+
 **Autor:** Davi Romão  
 **Objetivo:** Identificar os fluxos mais críticos da plataforma que, em caso de falha, impedem o cliente de realizar uma compra.
 
@@ -38,7 +39,7 @@ A definição de localização é o primeiro passo funcional para o uso da plata
 ### 2. Cadastro de Novo Usuário
 
 **Descrição:**  
-O cadastro é necessário para que o cliente avance para o login e efetive pedidos. Ele coleta dados como nome, e-mail, senha e local.
+O cadastro é necessário para que o cliente avance para o login e realize pedidos. Ele coleta dados como nome, e-mail, senha e local.
 
 **Motivos para ser um fluxo crítico:**
 
@@ -80,6 +81,6 @@ Etapa final da jornada de compra, onde o usuário escolhe a forma de pagamento, 
 |-------------------------------|--------------------------------------------|------------------------------------------------|
 | Escolha de Localização        | Cliente impedido de iniciar o pedido       | Sem endereço válido, o sistema não avança      |
 | Cadastro de Novo Usuário      | Cliente não consegue acessar a plataforma  | Primeiro passo obrigatório para novos usuários |
-| Pagamento e Finalização       | Cliente não completa a compra              | Ponto final e mais sensível de conversão       |
+| Pagamento e Finalização       | Cliente não completa a compra              | Ponto final e mais sensível da compra          |
 
 ---

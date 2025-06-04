@@ -18,20 +18,20 @@ Você precisará dos seguintes softwares instalados:
 ```
 - [Node.js](https://nodejs.org/) (versão 18 ou superior)
 - [VSCode](https://code.visualstudio.com/)
-- Git (opcional, para clonar o projeto)
+- Git (https://git-scm.com/downloads) (opcional, para clonar o projeto)
 ```
 
 ---
 
 ### 🔧 Instalação
 
-1. Clone o repositório (ou baixe como ZIP):
+1. Clone o repositório no terminal desejado (ou baixe como ZIP):
 
 ```
-[git clone https://github.com/davir-hub/Desafio-Lab-Coco-Bambu.git
+git clone https://github.com/davir-hub/Desafio-Lab-Coco-Bambu.git
 ```
 
-2. Acesse o diretório do projeto (UI ou API):
+2. Acesse o diretório do projeto (UI ou API) (PowerShell):
 
 ```
 cd Desafios/UI
@@ -41,6 +41,17 @@ ou
 
 ```
 cd Desafios/API
+```
+2.5.  Acesse o diretório do projeto (UI ou API) (Git Bash):
+
+```
+cd /c/Qa/Temp/Desafio-Lab-Coco-Bambu/Desafios/UI
+```
+
+ou
+
+```
+cd /c/Qa/Temp/Desafio-Lab-Coco-Bambu/Desafios/API
 ```
 
 3. Instale as dependências do projeto:
@@ -54,8 +65,11 @@ npm install
 ```
 npx cypress open
 ```
+5. Selecione E2E testing
 
-5. Execute os testes pela interface do Cypress.
+6. Escolha o navegador que deseja realizar os teste
+
+7. Execute os testes pela interface do Cypress.
 
 ---
 
@@ -74,7 +88,7 @@ Ferramentas e frameworks utilizados:
 
 ---
 
-## ✒️ Autores
+## ✒️ Autor
 
 * **Davi Romão** – *Desenvolvimento e automação de testes* – (https://github.com/davir-hub)
 
