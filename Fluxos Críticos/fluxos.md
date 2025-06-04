@@ -79,3 +79,4 @@ Fluxo	Consequência em Caso de Falha	Justificativa
 Escolha de Localização	Cliente impedido de iniciar o pedido	Sem endereço válido, o sistema não avança
 Cadastro de Novo Usuário	Cliente não consegue acessar a plataforma	Primeiro passo obrigatório para novos usuários
 Pagamento e Finalização	Cliente não completa a compra	Ponto final e mais sensível de conversão.
+.
