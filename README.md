@@ -30,7 +30,7 @@ Você precisará dos seguintes softwares instalados:
 1. Clone o repositório (ou baixe como ZIP):
 
 ```
-git clone https://github.com/seu-usuario/desafio-lab-coco-bambu.git
+[git clone https://github.com/davir-hub/Desafio-Lab-Coco-Bambu.git
 ```
 
 2. Acesse o diretório do projeto (UI ou API):
