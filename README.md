@@ -9,8 +9,6 @@ Projeto de testes automatizados de interface (UI) e API utilizando Cypress, dese
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[📦 Implantação](#-implantação)** para saber como implantar o projeto.
-
 ---
 
 ### 📋 Pré-requisitos
@@ -67,40 +65,6 @@ O projeto possui testes automatizados para verificar o funcionamento correto da 
 
 ---
 
-### 🔩 Análise dos testes de ponta a ponta
-
-Os testes end-to-end verificam fluxos críticos, como:
-
-```
-- Adicionar produto ao carrinho
-- Atualizar produtos com merge ou substituição
-- Remover carrinho existente
-- Testar cenários de erro: usuário inválido, carrinho inexistente, payloads inválidos
-```
-
-Exemplo de estrutura de teste de API:
-
-```js
-cy.api('POST', '/carts/add', {
-  userId: 1,
-  products: [{ id: 5, quantity: 2 }]
-});
-```
-
----
-
-### ⌨️ E testes de estilo de codificação
-
-Este projeto não utiliza testes de lint (estilo de código), mas recomenda-se o uso de ferramentas como ESLint ou Prettier em projetos futuros para padronização.
-
----
-
-## 📦 Implantação
-
-Como este é um projeto de testes, não há implantação em ambiente de produção. Para simular os testes, utilize a estrutura local com a aplicação ou mock API.
-
----
-
 ## 🛠️ Construído com
 
 Ferramentas e frameworks utilizados:
@@ -110,24 +74,16 @@ Ferramentas e frameworks utilizados:
 
 ---
 
-## 🖇️ Colaborando
-
-Por enquanto, contribuições externas não estão sendo aceitas por se tratar de um desafio técnico pessoal. Mas fique à vontade para abrir *issues* com sugestões.
-
----
-
-## 📌 Versão
-
-Usa-se controle de versão semântico ([SemVer](http://semver.org/)).
-
----
-
 ## ✒️ Autores
 
-* **Davi Romão** – *Desenvolvimento e automação de testes* – [@seuGitHub](https://github.com/seuGitHub)
+* **Davi Romão** – *Desenvolvimento e automação de testes* – (https://github.com/davir-hub)
 
 ---
 
 ## 📄 Licença
 
-Este projeto não possui uma licença definida no momento.
+Este projeto está licenciado sob a licença MIT.
+
+---
+
+**Divirta-se testando!** 🚀
