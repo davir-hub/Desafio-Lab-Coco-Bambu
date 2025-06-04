@@ -38,7 +38,7 @@ A definição de localização é o primeiro passo funcional para o uso da plata
 ### 2. Cadastro de Novo Usuário
 
 **Descrição:**  
-O cadastro é necessário para que o cliente avance para o login e efetive pedidos. Ele coleta dados como nome, e-mail, senha e local.
+O cadastro é necessário para que o cliente avance para o login e realize pedidos. Ele coleta dados como nome, e-mail, senha e local.
 
 **Motivos para ser um fluxo crítico:**
 
